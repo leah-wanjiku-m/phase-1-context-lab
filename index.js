@@ -10,13 +10,6 @@ const createEmployeeRecord = function (recordArray) {
    };
    return employee;
  };
-//  function createEmployeeRecords(array){
-//         return array.map(ap => {
-//         return createEmployeeRecord(ap)
-//         })
-//      }
- 
- 
   const createEmployeeRecords = function (array){
   return array.map(employee => {
     return  createEmployeeRecord(employee);
